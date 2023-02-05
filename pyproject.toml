@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "robyn-example"
+version = "0.1.0"
+description = ""
+authors = ["Igor Nikolaev <igor.nikolaev@nikisoft.ru>"]
+readme = "README.md"
+packages = [{include = "robyn_example"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+robyn = "^0.23.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
